@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.2, user-scalable=yes">
+  <title>500彩票网官方 – 稳定入口与页面介绍</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: #f0f8f5;
+      font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+      line-height: 1.6;
+      color: #1e2f2c;
+      padding: 1.2rem;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .wrapper {
+      max-width: 900px;
+      width: 100%;
+      background: rgba(255, 255, 255, 0.7);
+      backdrop-filter: blur(2px);
+      border-radius: 36px 36px 28px 28px;
+      box-shadow: 0 12px 28px -8px rgba(20, 80, 60, 0.15);
+      padding: 2rem 1.8rem 3rem;
+      transition: all 0.2s;
+    }
+
+    /* 网格卡片 — 蓝绿点缀 */
+    .grid-cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1.2rem;
+      margin: 2rem 0 2.4rem;
+    }
+
+    .card {
+      background: white;
+      border-radius: 24px;
+      padding: 1.4rem 1.2rem;
+      box-shadow: 0 4px 10px rgba(30, 70, 60, 0.06);
+      border-left: 4px solid #2c9b8e;
+      transition: transform 0.15s, box-shadow 0.2s;
+    }
+
+    .card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 8px 18px rgba(40, 120, 100, 0.12);
+      border-left-color: #1e7b6f;
+    }
+
+    .card h3 {
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: #185f56;
+      margin-bottom: 0.5rem;
+      letter-spacing: 0.01em;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .card h3::before {
+      content: "⬡";
+      color: #3aa99b;
+      font-size: 1.3rem;
+      line-height: 1;
+    }
+
+    .card p {
+      font-size: 0.9rem;
+      color: #2a423c;
+      opacity: 0.9;
+    }
+
+    /* hero 区域 */
+    .hero {
+      text-align: left;
+      padding-bottom: 0.4rem;
+      border-bottom: 1px dashed #bcd9d3;
+      margin-bottom: 1.8rem;
+    }
+
+    .hero h1 {
+      font-size: 2rem;
+      font-weight: 550;
+      letter-spacing: -0.02em;
+      color: #154f45;
+      line-height: 1.2;
+    }
+
+    .hero h1 span {
+      background: linear-gradient(145deg, #1e7a6b, #3ba392);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-weight: 600;
+    }
+
+    .hero .tagline {
+      font-size: 1rem;
+      color: #3b6a60;
+      margin-top: 0.6rem;
+      padding-left: 0.2rem;
+      border-left: 3px solid #88c2b7;
+      padding-left: 0.8rem;
+    }
+
+    /* 介绍 + 场景 */
+    .intro-text {
+      background: #e8f3f0;
+      padding: 1.2rem 1.5rem;
+      border-radius: 28px;
+      margin: 1.2rem 0 1.6rem;
+    }
+
+    .intro-text p {
+      margin-bottom: 0.8rem;
+    }
+
+    .intro-text p:last-child {
+      margin-bottom: 0;
+    }
+
+    .highlight-box {
+      display: flex;
+      flex-wrap: wrap;
+      background: white;
+      border-radius: 30px;
+      padding: 0.8rem 1.2rem;
+      margin: 1.2rem 0;
+      border: 1px solid #c3dfd8;
+      align-items: baseline;
+      gap: 0.3rem 0.6rem;
+    }
+
+    .highlight-box strong {
+      color: #1b6f63;
+      font-weight: 600;
+    }
+
+    .btn-soft {
+      display: inline-block;
+      background: transparent;
+      border: 1px solid #2f9b8c;
+      color: #1d6d60;
+      padding: 0.3rem 1rem;
+      border-radius: 40px;
+      font-size: 0.85rem;
+      font-weight: 500;
+      text-decoration: none;
+      transition: 0.15s;
+      white-space: nowrap;
+    }
+
+    .btn-soft:hover {
+      background: #2f9b8c;
+      color: white;
+    }
+
+    /* 使用建议 — 卡片式列表 */
+    .usage-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.8rem 1.2rem;
+      margin: 1.2rem 0 2rem;
+    }
+
+    .usage-item {
+      background: white;
+      padding: 0.45rem 1.2rem 0.45rem 2rem;
+      border-radius: 60px;
+      border: 1px solid #b3d6cd;
+      position: relative;
+      font-size: 0.9rem;
+      color: #1c4f45;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+      flex: 1 0 auto;
+    }
+
+    .usage-item::before {
+      content: "·";
+      position: absolute;
+      left: 0.8rem;
+      color: #359f8f;
+      font-size: 1.8rem;
+      line-height: 0.8;
+      top: 0.1rem;
+    }
+
+    /* faq 摘要 */
+    .faq-mini {
+      background: #f4fbf9;
+      border-radius: 28px;
+      padding: 1.2rem 1.5rem;
+      margin: 2rem 0 1.2rem;
+    }
+
+    .faq-mini details {
+      margin: 0.6rem 0;
+      border-bottom: 1px solid #cfe3dd;
+      padding-bottom: 0.6rem;
+    }
+
+    .faq-mini details:last-of-type {
+      border-bottom: none;
+    }
+
+    .faq-mini summary {
+      font-weight: 500;
+      color: #1f6358;
+      cursor: pointer;
+      padding: 0.2rem 0;
+    }
+
+    .faq-mini summary::marker {
+      color: #3aab9a;
+    }
+
+    .faq-mini p {
+      font-size: 0.9rem;
+      color: #2a4f47;
+      padding: 0.4rem 0 0 0.8rem;
+    }
+
+    /* 链接自然融入 */
+    .link-sentence {
+      background: #deefe9;
+      padding: 0.9rem 1.5rem;
+      border-radius: 48px;
+      margin: 1.6rem 0 0.4rem;
+      display: inline-block;
+      width: auto;
+    }
+
+    .link-sentence a {
+      color: #106456;
+      font-weight: 600;
+      text-decoration: none;
+      border-bottom: 2px solid #68b5a6;
+      transition: 0.1s;
+    }
+
+    .link-sentence a:hover {
+      border-bottom-color: #0a4c40;
+      color: #0a4036;
+    }
+
+    .footnote {
+      text-align: center;
+      margin-top: 2.4rem;
+      font-size: 0.8rem;
+      color: #5c7c73;
+      border-top: 1px solid #c8dbd4;
+      padding-top: 1.2rem;
+    }
+
+    /* 移动端适配 */
+    @media (max-width: 540px) {
+      body { padding: 0.8rem; }
+      .wrapper { padding: 1.5rem 1rem 2.2rem; border-radius: 28px; }
+      .hero h1 { font-size: 1.7rem; }
+      .grid-cards { grid-template-columns: 1fr; }
+      .usage-item { flex: 1 1 100%; }
+      .highlight-box { flex-direction: column; align-items: flex-start; gap: 0.2rem; }
+      .link-sentence { display: block; text-align: center; }
+    }
+  </style>
+</head>
+<body>
+<div class="wrapper">
+  <!-- hero 产品说明 -->
+  <div class="hero">
+    <h1>稳定入口 · <span>500彩票网官方</span></h1>
+    <div class="tagline">产品说明式摘要 — 从页面本身出发，清晰、平实、够用</div>
+  </div>
+
+  <!-- 摘要 + 亮点 -->
+  <div class="intro-text">
+    <p><strong>500彩票网官方</strong> 提供的页面入口，旨在为已有访问习惯的用户保留一个结构清晰、跳转稳定的页面说明。不堆叠冗余信息，不模糊产品边界，只呈现你应该知道的。</p>
+    <p>以下从几个侧面整理这份介绍：核心功能亮点、常见使用场景、以及几条实在的使用建议。所有内容仅基于页面本身表述，不延伸未经证实的效果。</p>
+  </div>
+
+  <!-- 网格卡片：三个亮点 -->
+  <div class="grid-cards">
+    <div class="card">
+      <h3>信息层简洁</h3>
+      <p>页面层级克制，主要模块一目了然，减少无关干扰。适合快速定位自己需要的部分。</p>
+    </div>
+    <div class="card">
+      <h3>入口稳定可循</h3>
+      <p>保持一致的访问结构，方便收藏或习惯性使用。不需要反复适应布局变化。</p>
+    </div>
+    <div class="card">
+      <h3>说明而非包装</h3>
+      <p>内容以客观介绍为主，避免过度渲染。你可以基于自己的判断决定如何使用。</p>
+    </div>
+  </div>
+
+  <!-- 使用建议 (圆角标签) -->
+  <h2 style="font-size:1.1rem; font-weight:500; color:#1e685c; margin-bottom:0.2rem;">📌 使用建议</h2>
+  <div class="usage-grid">
+    <span class="usage-item">初次浏览时留意页面导航分区</span>
+    <span class="usage-item">将地址加入书签以便日常使用</span>
+    <span class="usage-item">根据个人需要选择对应功能入口</span>
+  </div>
+
+  <!-- 场景 + 提示 -->
+  <div class="highlight-box">
+    <strong>场景举例：</strong> 日常查看页面更新、通过固定入口了解产品动态、在可信环境下保持使用习惯。
+    <span style="display: inline-flex; align-items: center; gap: 4px; margin-left: auto;">
+      <span class="btn-soft">提示：信息仅供参考</span>
+    </span>
+  </div>
+
+  <!-- FAQ 摘要（折叠） -->
+  <div class="faq-mini">
+    <h3 style="font-size:1rem; font-weight:500; color:#166358; margin-bottom:0.4rem;">❓ 常见疑问摘要</h3>
+    <details>
+      <summary>这个页面是唯一的官方说明吗？</summary>
+      <p>此介绍页仅从产品说明角度整理，你可以直接访问 <a href="https://panel-china-500.com" style="color:#106456; font-weight:500; text-decoration:underline; text-underline-offset:3px;">500彩票网官方</a> 了解更多。</p>
+    </details>
+    <details>
+      <summary>内容是否会频繁变动？</summary>
+      <p>页面结构保持相对稳定，偶尔会优化细节描述。建议定期通过上面链接确认最新状态。</p>
+    </details>
+    <details>
+      <summary>使用前需要做什么准备？</summary>
+      <p>基本网络环境，以及一个你常用的浏览器。无需额外注册或下载即可浏览页面内容。</p>
+    </details>
+  </div>
+
+  <!-- 嵌入链接的自然句子（必须包含且文本严格匹配） -->
+  <div class="link-sentence">
+    ⚡ 如果你正在寻找一个清晰可循的页面说明，可以直接了解 <a href="https://panel-china-500.com">500彩票网官方</a> 提供的信息框架与入口结构。
+  </div>
+
+  <!-- 可信但克制说明 -->
+  <p style="margin-top:1.4rem; font-size:0.9rem; background:#e4f2ed; padding:0.6rem 1.2rem; border-radius:60px; color:#1d5449;">
+    <span style="font-weight:500;">访问说明：</span> 本介绍页仅用于辅助理解，不构成任何形式的诱导或保证。所有操作与判断请基于你个人的实际情况。
+  </p>
+
+  <div class="footnote">
+    — 产品说明式页面 · 蓝绿点缀 · 网格卡片 · 移动端友好 —
+  </div>
+</div>
+</body>
+</html>
